@@ -13,14 +13,6 @@ bill.Size = UDim2.new(0,400,0,100)
 bill.Adornee = objectshehe
 bill.Enabled = true
 bill.MaxDistance = 2000
-local mid = Instance.new("Frame",bill)
-mid.AnchorPoint = Vector2.new(0.5,0.5)
-mid.BackgroundColor3 = color
-mid.Size = UDim2.new(0,8,0,8)
-mid.Position = UDim2.new(0.5,0,0.5,0)
-Instance.new("UICorner",mid).CornerRadius = UDim.new(1,0)
-Instance.new("UIStroke",mid)
-        
         local txt = Instance.new("TextLabel",bill)
         txt.AnchorPoint = Vector2.new(0.5,0.5)
         txt.BackgroundTransparency = 1
